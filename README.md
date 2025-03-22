@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+Nima AI - AI-Powered Food Allergen Detection
+🌟 Introduction
+Nima AI is an AI-powered mobile application designed to help users detect food allergens efficiently. With the increasing prevalence of food allergies, Nima AI aims to provide a quick, accurate, and accessible solution for individuals to ensure their meals are safe.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔍 Key Features
+✅ AI-Based Allergen Detection – Scan food items to identify potential allergens.
+✅ Fast & Accurate Results – Powered by advanced machine learning models.
+✅ User-Friendly Interface – Simple and intuitive UI for seamless experience.
+✅ Real-Time Analysis – Get instant allergen detection feedback.
+✅ Personalized Allergen Profiles – Customize based on user allergies.
 
-## Available Scripts
+🚀 Why Nima AI?
+Convenient & Reliable: No need for extensive research—just scan and check!
 
-In the project directory, you can run:
+AI-Driven Insights: Leverages deep learning for enhanced accuracy.
 
-### `npm start`
+Designed for Everyone: Useful for individuals with food sensitivities, allergies, or dietary restrictions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Steps to access the web app -
+1) open the vercel app link
+2) run app.py in ai_ml/integ to establish connection
+3) give this sample image to test the model.
+   ![test_image1](https://github.com/user-attachments/assets/fc976a71-8e56-4d3f-89d7-25f9caf1cc9d)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
