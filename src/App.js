@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import ScannerPage from './components/ScannerPage';
 import ProfilePage from './components/ProfilePage';
 import AboutPage from './components/AboutPage';
+import ContactForm from './components/ContactForm';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -29,6 +30,8 @@ function App() {
         return <ProfilePage userProfile={userProfile} updateAllergens={updateAllergens} />;
       case 'about':
         return <AboutPage />;
+      case 'contact':
+        return <ContactForm />;
       default:
         return <HomePage navigateTo={setCurrentPage} />;
     }
@@ -41,7 +44,9 @@ function App() {
         {renderPage()}
       </main>
       <footer>
+
         <div className="container">
+        <ContactForm /> 
           <p>&copy; 2025 Nima AI. All rights reserved.</p>
         </div>
       </footer>
