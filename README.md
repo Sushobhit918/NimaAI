@@ -21,6 +21,8 @@ Steps to access the web app -
 1) open the vercel app link
 2) run app.py in ai_ml/integ to establish connection
 3) give this sample image to test the model.
+
+   
    ![test_image1](https://github.com/user-attachments/assets/fc976a71-8e56-4d3f-89d7-25f9caf1cc9d)
 
 
